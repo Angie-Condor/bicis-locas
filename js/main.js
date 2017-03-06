@@ -28,4 +28,5 @@ function validateForm(){
       alert("Error:\n No puede usar esa palabra como password.");
   } else if (password.value.length < 6) {
       alert("Error:\n Ingresa como mínimo 6 caracteres.");
+  }
 }
